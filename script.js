@@ -5,7 +5,7 @@ function checkDate(event) {
     if (selectedDate.getDate() == 7 && selectedDate.getMonth() == 3) {
         window.location.href = 'frage.html';
     } else {
-        alert('Bitte wähle den 07.04 aus.');
+        alert('Du hast heute nicht Geburtstag!');
     }
 }
 
